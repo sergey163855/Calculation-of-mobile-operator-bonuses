@@ -9,9 +9,9 @@ public class Main {
         if (amount > 1000) {
             bonus = amount / 100;
         }
-        int endingBalance = startingBalance + amount +bonus;
+        int endingBalance = startingBalance + amount + bonus;
         System.out.println("Итоговый баланс:" + endingBalance);
         System.out.println("бонус:" + bonus);
-        }
     }
+}
 
