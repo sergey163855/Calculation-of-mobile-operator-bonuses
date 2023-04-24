@@ -2,15 +2,15 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        int balance = 500;
-        int amount = 2000;
-        int percent = 100;
+        int balance = 100;
+        int amount = 1100;
+        int percent =100;
         if (amount > 1000) {
-            System.out.println("Бонус" + (balance + amount) / percent);
-            System.out.println("Баланс" + (balance + amount));
+            System.out.println("Бонус" + amount / percent );
+            System.out.println("Итоговый баланс" + ((amount / percent) + amount + balance));
         } else {
             System.out.println("Бонус 0");
-            System.out.println("Баланс" + (balance + amount));
+            System.out.println("Итоговый баланс"+(balance + amount));
         }
     }
 }
